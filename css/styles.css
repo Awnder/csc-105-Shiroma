@@ -166,6 +166,10 @@ nav li {
     }
 }
 
+#contact-form-section {
+    margin-bottom: 20px;
+}
+
 input {
     background-color: #EEBCAA;
     border-color: #E29578;
