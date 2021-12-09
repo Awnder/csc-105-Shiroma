@@ -225,6 +225,10 @@ nav a, footer a {
     position: relative;
 }
 
+nav a:hover {
+    color: #EDF6F9;
+}
+
 nav a:after {
     content: "";
     position: absolute;
