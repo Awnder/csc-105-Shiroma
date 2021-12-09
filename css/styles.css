@@ -36,7 +36,6 @@ footer li {
 nav {
     border-bottom: 3px solid #006D77;
     background-color: #83C5BE;
-    opacity: 0.8;
 }
 
 nav ul {
@@ -70,10 +69,6 @@ nav li {
 
     nav > ul {
         display: none;
-    }
-
-    nav > li {
-        opacity: 0.8;
     }
 
     .dropdown-toggle {
