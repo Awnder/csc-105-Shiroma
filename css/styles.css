@@ -36,6 +36,7 @@ footer li {
 nav {
     border-bottom: 3px solid #006D77;
     background-color: #83C5BE;
+    opacity: 0.8;
 }
 
 nav ul {
@@ -179,12 +180,14 @@ form {
 input {
     background-color: #F5D7CC;
     border-color: #E29578;
+    border-radius: 10px;
     margin: 5px;
 }
 
 textarea {
     background-color: #F5D7CC;
     border-color: #E29578;
+    border-radius: 10px;
     height: 100px;
     width: 300px;
     overflow: auto;
@@ -207,10 +210,6 @@ a {
     transition: 200ms color;
 }
 
-nav a, footer a {
-    position: relative;
-}
-
 a:link {
     color: #264653;
 }
@@ -221,6 +220,10 @@ a:visited {
 
 a:hover {
     color: #467f96;
+}
+
+nav a, footer a {
+    position: relative;
 }
 
 nav a:after {
@@ -382,10 +385,12 @@ footer a:hover:after {
     border-collapse: collapse;
     padding: 5px;
     height: 450px;
+    border-radius: 10px;
 }
 
 .content-img {
     height: 300px;
+    border-radius: 10px;
 }
 
 /*two column layout*/
